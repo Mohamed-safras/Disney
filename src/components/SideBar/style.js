@@ -5,13 +5,13 @@ export const Continer = styled.div`
   position: fixed;
   background-color: #0c111b;
   display: grid;
-  z-index: 100;
+
   top: 0;
   align-items: center;
   width: 240px;
   justify-content: center;
   height: 100%;
-  z-index: 999;
+  z-index: 10000;
   transition: 550ms ease-in-out;
   right: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};

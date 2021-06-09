@@ -9085,6 +9085,11 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+react-hover-video-player@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/react-hover-video-player/-/react-hover-video-player-8.0.2.tgz#a69a513d264b94d1d168fc6fab6445b28f5d975f"
+  integrity sha512-svn2SMDcskXMvx+UYTWm5CPxfFOUF5bJaQxRipGHp9wYbRXcjKYPLkDB+etvjjcfukseh1HBV6Z3pjM1bvmRIQ==
+
 react-icons@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"

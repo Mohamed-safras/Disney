@@ -3,7 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 13px; /* width of the entire scrollbar */
+}
 
+::-webkit-scrollbar-track {
+  background: #0c111b; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #009578; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid #0c111b; /* creates padding around scroll thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6dcdb1;
+}
 body {
   margin: 0;
   color: #fff;

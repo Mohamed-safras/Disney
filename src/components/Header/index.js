@@ -16,7 +16,8 @@ import movie_icon from "../../assets/images/movie-icon.svg";
 import original_icon from "../../assets/images/original-icon.svg";
 import search_icon from "../../assets/images/search-icon.svg";
 import watchlist_icon from "../../assets/images/watchlist-icon.svg";
-const Header = ({ toggle, isOpen }) => {
+
+const Header = ({ toggle }) => {
   const [scrollnav, setScrollnav] = useState(false);
 
   const changNav = () => {
@@ -30,8 +31,9 @@ const Header = ({ toggle, isOpen }) => {
   useEffect(() => {
     window.addEventListener("scroll", changNav);
   }, []);
+
   return (
-    <Continer onScroll={scrollnav}>
+    <Continer scrollnav={scrollnav}>
       <Logo src={logo} />
 
       <NavMenu>

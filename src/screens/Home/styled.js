@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Continer = styled.div`
   background-color: #0c111b;
-  min-height: 100vh;
+  height: 100vh;
   /* padding: calc(3.5vw + 4.5px); */
   position: relative;
   z-index: 1;

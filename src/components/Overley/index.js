@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 const OverleyC = ({ toggle, isOpen }) => {
   return <Overlay isOpen={isOpen} onClick={toggle} />;
 };
@@ -7,7 +8,7 @@ const OverleyC = ({ toggle, isOpen }) => {
 export default OverleyC;
 
 const Overlay = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;

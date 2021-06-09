@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Continer = styled.div`
-  background-color: ${({ scrollnav }) => (scrollnav ? "#0c111b" : "#0c111b")};
+  background-color: ${({ scrollnav }) => (scrollnav ? "#fff" : "#0c111b")};
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   padding: 0 26px;
   overflow-x: hidden;
 `;

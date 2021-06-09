@@ -5,6 +5,7 @@ import SideBar from "../../components/SideBar";
 import { Continer } from "./styled";
 
 import OverleyC from "../../components/Overley";
+import Viwers from "../../components/Viwers";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,9 +17,9 @@ const Home = () => {
     <Continer>
       <Header toggle={toggle} />
       <SideBar isOpen={isOpen} toggle={toggle} />
-
       <ImageSlider />
       <OverleyC isOpen={isOpen} toggle={toggle} />
+      <Viwers />
     </Continer>
   );
 };
