@@ -17,27 +17,27 @@ const SideBar = ({ toggle, isOpen }) => {
     <Continer isOpen={isOpen} onClick={toggle}>
       <CloseIcon onClick={toggle} />
       <SideBarMiddle>
-        <a href="#">
+        <a href="#home">
           <img src={home_icon} alt="home_icon" />
           <span>Home</span>
         </a>
-        <a href="#">
+        <a href="#search">
           <img src={search_icon} alt="search_icon" />
           <span>search</span>
         </a>
-        <a href="#">
+        <a href="#watchlist">
           <img src={watchlist_icon} alt="watchlist_icon" />
           <span>watchlist</span>
         </a>
-        <a>
+        <a href="#original">
           <img src={original_icon} alt="original_icon" />
           <span>original</span>
         </a>
-        <a href="#">
+        <a href="#movie">
           <img src={movie_icon} alt="movie_icon" />
           <span>movie</span>
         </a>
-        <a href="#">
+        <a href="#series">
           <img src={series_icon} alt="series_icon" />
           <span>Series</span>
         </a>
